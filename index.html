@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Forever Charmed - Permanent Jewelry by K" />
+  <meta name="author" content="Forever Charmed LLC" />
+  <meta property="og:title" content="Forever Charmed - Permanent Jewelry by K">
+  <meta property="og:description" content="Timeless, clasp-less jewelry custom-welded just for you.">
+  <meta property="og:image" content="https://forevercharmedbyk.com/forever-charmed-preview.jpg">
+  <meta property="og:url" content="https://forevercharmedbyk.com">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="forever-charmed-small-logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Poppins:wght@300;500;600&display=swap" rel="stylesheet" />
+  <title>Forever Charmed</title>
+</head>
+<body>
+  <header>
+    <div class="logo"><img src="forever-charmed-full-logo.png" alt="Forever Charmed Logo" height="60" /></div>
+    <div class="hamburger" onclick="toggleMenu()">
+      <div></div><div></div><div></div>
+    </div>
+    <nav>
+      <ul id="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#our-jewelry">Jewelry</a></li>
+        <li><a href="#our-story">Story</a></li>
+        <li><a href="#book-now">Book</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="https://instagram.com/forevercharmed.byk" target="_blank">IG</a></li>
+      </ul>
+    </nav>
+    <button class="cta-button" onclick="document.getElementById('book-now').scrollIntoView()">Book Now</button>
+  </header>
+
+  <section id="home" class="section">
+    <div class="logo-overlay">
+      <div class="logo"><img src="forever-charmed-white-logo.png" alt="Forever Charmed Logo" height="200" /></div>
+    </div>
+    <div class="cta-overlay">
+      <h1>Elegant, timeless, hand-welded jewelry made custom just for you.</h1>
+      <button class="cta-button" onclick="document.getElementById('book-now').scrollIntoView()">Book Now</button>
+    </div>
+  </section>
+
+  <section id="our-jewelry" class="section image-text-section">
+    <img src="jewelry.jpg" alt="Our Jewelry" />
+    <div class="text">
+      <h1>Our Jewelry</h1>
+      <p>
+        Permanent jewelry is custom-fit, welded-on jewelry designed to be lived in — without clasps, snaps, or the need to take it off. These delicate, high-quality chains are seamlessly fused together for a minimalist look that symbolizes connection, intention, and lasting style. Whether you're marking a milestone, celebrating friendship, or simply treating yourself, permanent jewelry is the ultimate wearable keepsake.
+        <br>
+        At <b>Forever Charmed</b>, we specialize in:
+        <ul>
+          <li><b>Custom-fit, welded</b> bracelets, anklets, necklaces, rings, body chains, hand chains, & your next creation!</li>
+          <li>A curated selection of <b>14k gold-filled, .925 sterling silver</b>, and some <b>enamel and two-tone chains</b> - 10/14K gold offered upon request</li>
+          <li><b>Charms</b> to personalize your piece — from initials and birthstones to evil eyes and hearts</li>
+          <li><b>Private parties, pop-ups, and one-on-one appointments</b> for a truly personal experience</li>
+        </ul>
+        Each piece is thoughtfully selected and lovingly applied to celebrate the charm of every moment — forever.
+      </p>
+    </div>
+  </section>
+
+  <section id="our-story" class="section image-text-section">
+    <img src="owner.jpg" alt="Our Story" />
+    <div class="text">
+      <h1>Our Story</h1>
+      <p>Hi, I’m Kayla! I started Forever Charmed with the mission to bring timeless, meaningful jewelry to life — quite literally. What began as a spark of creativity turned into a business that celebrates connection, memory, and elegance.</p>
+    </div>
+  </section>
+
+  <section id="book-now" class="section">
+    <img src="booknow.jpg" alt="Booking" />
+    <form action="mailto:hello@forevercharmedbyk.com?subject=NewInquiry" method="POST" enctype="text/plain">
+      <div>
+        <h1>Book Forever Charmed for your next event</h1>
+        <p>We would be delighted to pop-up at your next event. Whether it’s a bridal shower, bachelorette party, wedding, or special occasion, we bring our setup straight to you to make it the most luxurious and charming event yet!</p>
+        <input type="email" name="email" placeholder="Your Email" required autocomplete="email" />
+        <textarea name="message" rows="4" placeholder="Your Message" autocomplete="off"></textarea>
+        <button type="submit">Send</button>
+      </div>
+    </form>
+  </section>
+
+  <section id="gallery">
+    <!-- <h2>Gallery</h2> -->
+    <div class="gallery-grid">
+      <img src="gallery1.jpg" alt="Gallery 1" />
+      <img src="gallery2.jpg" alt="Gallery 2" />
+      <img src="gallery3.jpg" alt="Gallery 3" />
+      <img src="gallery4.jpg" alt="Gallery 4" />
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-links">
+      <div class="logo"><img src="forever-charmed-circle-logo.png" alt="Forever Charmed Logo" height="150" /></div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#our-jewelry">Jewelry</a></li>
+        <li><a href="#our-story">Story</a></li>
+        <li><a href="#book-now">Book</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="https://instagram.com/forevercharmed.byk" target="_blank">Instagram</a></li>
+      </ul>
+    </div>
+    <div class="newsletter">
+      <h3>Subscribe to our mailing list</h3>
+      <form action="https://docs.google.com/forms/d/e/1FAIpQLScmKEnlxLstE_c2_A9sXYJz-aEReEPez2CTmotczx3s_KM1Ww/formResponse" target="_blank">
+        <input type="email" name="entry.2005512998" placeholder="Your email" required autocomplete="email" />
+        <button type="submit">Join</button>
+      </form>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
