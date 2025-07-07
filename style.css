@@ -206,6 +206,11 @@ nav ul li a:hover {
   background-color: var(--cream-darker);
 }
 
+#signature-pic {
+    max-width: 190px;
+    margin-top: 0.55rem;
+}
+
 .star-list {
   list-style: none;
   padding-left: 1rem;
